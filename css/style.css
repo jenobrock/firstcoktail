@@ -28,7 +28,9 @@
     visibility: visible;
     opacity: 1;
 }
-
+.logo1{
+    margin-left: 200px;
+}
 
 /*** Button ***/
 .btn {
@@ -76,7 +78,7 @@
 .navbar .navbar-nav .nav-link {
     margin-left: 30px;
     padding: 25px 0;
-    color: var(--secondary);
+    color: var(--secondary) !important;
     font-weight: 500;
     text-transform: uppercase;
     outline: none;
@@ -84,7 +86,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--primary) !important;
 }
 
 .navbar .dropdown-toggle::after {
@@ -105,6 +107,9 @@
     .navbar .navbar-nav {
         margin-top: 25px;
         border-top: 1px solid #EEEEEE;
+    }
+    .logo1{
+        margin-left: 0px;
     }
 }
 
@@ -185,7 +190,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url(./img/im3.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url(../img/im3.jpg) center center no-repeat;
     background-size: cover;
 }
 
